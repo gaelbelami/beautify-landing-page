@@ -19,6 +19,20 @@ export const LogoTicker = () => {
           <Image src={celestialLogo} alt="Celestial logo" className="logo-ticker-image"/>
           <Image src={ pulseLogo} alt="Pulse logo" className="logo-ticker-image"/>
           <Image src={apexLogo } alt="Apex logo" className="logo-ticker-image"/>
+          {/* Repeated for sake of animation */}
+          <Image src={acmeLogo} alt="Acme logo" className="logo-ticker-image"/>
+          <Image src={quantumLogo } alt="quantum logo" className="logo-ticker-image"/>
+          <Image src={echoLogo} alt="Echo logo" className="logo-ticker-image"/>
+          <Image src={celestialLogo} alt="Celestial logo" className="logo-ticker-image"/>
+          <Image src={ pulseLogo} alt="Pulse logo" className="logo-ticker-image"/>
+          <Image src={apexLogo } alt="Apex logo" className="logo-ticker-image"/>
+          <Image src={acmeLogo} alt="Acme logo" className="logo-ticker-image"/>
+          <Image src={quantumLogo } alt="quantum logo" className="logo-ticker-image"/>
+          <Image src={echoLogo} alt="Echo logo" className="logo-ticker-image"/>
+          <Image src={celestialLogo} alt="Celestial logo" className="logo-ticker-image"/>
+          <Image src={ pulseLogo} alt="Pulse logo" className="logo-ticker-image"/>
+          <Image src={apexLogo } alt="Apex logo" className="logo-ticker-image"/>
+          
         </motion.div>
       </div>
       </div>

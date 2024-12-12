@@ -78,7 +78,7 @@ export const Pricing = () => {
                 <h3 className={twMerge("text-lg font-bold text-black/50", inverse === true && "text-white/60")}>{title}</h3>
                 {
                   popular === true && (<div className="inline-flex text-sm px-4 py-1.5 rounded-xl border border-white/20">
-                    <motion.span animate={{backgroundPositionX: "100%"}} transition={{duration: 5, repeat:Infinity, ease: 'linear', repeatType: "loop"}} className="bg-[linear-gradient(to_right,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF)] [background-size:200%] text-transparent bg-clip-text font-medium  ">
+                    <motion.span animate={{backgroundPositionX: "100%"}} transition={{duration: 2, repeat:Infinity, ease: 'linear', repeatType: "loop"}} className="bg-[linear-gradient(to_right,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF)] [background-size:200%] text-transparent bg-clip-text font-medium  ">
                       Popular
                     </motion.span>
                   </div>)
