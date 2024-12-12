@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import {twMerge} from "tailwind-merge";
+import {ReactLenis} from "@/lib/lenis";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
@@ -18,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="relative">
       <body className={twMerge(dmSans.className, "antialiased bg-[#EAEEFE]")}>
-        {children}
+      <ReactLenis root>{children}</ReactLenis>
       </body>
     </html>
   );
